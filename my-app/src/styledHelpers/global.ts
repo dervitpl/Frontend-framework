@@ -10,16 +10,16 @@ html{
     
 }
 *{
-    color: ${stackColor.white};
+    color: ${stackColor.black};
 }
 body{
-    background: #060604;
+    background: white;
     overflow: hidden;
     height: 100vh;
     font-family: 'Roboto', 'sans-serif';
 }
 a,p{
-    color: ${stackColor.white};
+    color: ${stackColor.black};
     font-size:1rem;
 }
 `

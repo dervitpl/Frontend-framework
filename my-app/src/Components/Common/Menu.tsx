@@ -4,8 +4,10 @@ import styled from 'styled-components'
 import { stackColor } from '../../styledHelpers/colors'
 
 const Wrapper = styled.div`
-  border: 10px solid ${stackColor.white};
+  border: 10px solid ${stackColor.red};
+  text-align: center;
 `
+
 
 export const Menu: FC = () => {
   return (
